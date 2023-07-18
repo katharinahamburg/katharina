@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,36 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class AppComponent {
 
+constructor(public router: Router) {}
 
 }
 
-
-
-
-/*
-export class AppComponent implements OnInit {
-images = ['moped.jpeg', 'yako.jpeg', 'wacken.jpeg'];
-headlines = ['Bring Blackbeauty to the next level!', 'Chill to the next level!', 'Bring ROCK to the next level!'];
-currentImage = 0;
-showImage = true;
-
-
-ngOnInit() {
-    this.updateImage();
-}
-
-
-updateImage() {
-
-    setInterval(() => {
-        this.currentImage++;
-        this.currentImage = this.currentImage % this.images.length;
-        this.showImage = false;
-
-        setTimeout(() => {
-          this.showImage = true;
-        }, 10);
-    }, 3000);
-}
-
-}*/
