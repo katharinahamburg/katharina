@@ -5,6 +5,16 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
+export class AppComponent {
+
+
+}
+
+
+
+
+/*
 export class AppComponent implements OnInit {
 images = ['moped.jpeg', 'yako.jpeg', 'wacken.jpeg'];
 headlines = ['Bring Blackbeauty to the next level!', 'Chill to the next level!', 'Bring ROCK to the next level!'];
@@ -30,5 +40,4 @@ updateImage() {
     }, 3000);
 }
 
-
-}
+}*/
